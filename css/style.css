@@ -1,0 +1,288 @@
+body {
+  font-family: "DIN 2014 Extra Bold ", "Hiragino Sans", "Hiragino Maru Gothic Pro W4", sans-serif;
+}
+
+hr {
+  color: white;
+  height: 0.6px;
+  background-color: white;
+  border: none;
+  color: white;
+}
+
+/* top */
+.top {
+  background-image: url("../img/title.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 185px;
+  padding-bottom: 185px;
+
+}
+
+.top-content {}
+
+.top-left-title {
+  font-size: 41px;
+  margin: 0 auto 45px 0;
+}
+
+
+.top-title-name {
+  width: 70px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.top-left-p {
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+/* release  */
+.release {
+  background-color: #FEF7F1;
+  padding: 30px 0 30px 10px;
+
+}
+
+.release-content {
+  padding-left: 15px;
+  line-height: 30px;
+}
+
+/* 各分のbutton部分 */
+.release-button {
+  background-color: #F0AB91;
+  margin: 0 15px;
+  padding: 2px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* power-product */
+.power-product {
+  background-image: url("../img/back1wide_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.power-product-inner {
+  padding: 70px 0;
+}
+
+.power-product-logo {
+  width: 250px;
+}
+
+/* left */
+.power-product-left {
+  padding: auto 0;
+}
+
+.power-product-left-inner {
+  margin: 120px auto 120px 0;
+}
+
+.power-product-left-content {
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+/* right */
+.power-product-right {
+  background-color: #fff;
+  padding: 50px 10px 40px 30px;
+  margin-right: 30px;
+}
+
+.power-product-right-inner {
+  margin-right: 10px;
+}
+
+.power-product-right-inner-title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.power-product-right-inner-content {
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+
+.power-product-right-inner-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0 10px 5px 0;
+}
+
+.button-detail {
+  background-color: #FF6C7F;
+  color: #fff;
+  padding: 5px 15px 5px 15px;
+  border-radius: 30px;
+
+}
+
+.button-logo-saisei {
+  width: 15px;
+  margin: 5px 1px -1px 10px;
+}
+
+/* =================== */
+/* oem-business */
+/* =================== */
+/* 全体 */
+.oem-business {
+  background-color: #F8E4E4;
+  padding-bottom: 150px;
+}
+
+.oem-business-inner {
+  padding: 35px 35px 0 35px;
+}
+
+/* 左側 */
+/* 左全体 */
+.oem-business-left {
+  padding: 30px 45px 30px 0;
+}
+
+.oem-business-left-inner {}
+
+
+/* 左ロゴ設定 */
+.oem-business-logo {
+  width: 120px;
+}
+
+/* まとまり */
+.oem-business-content-left {
+  margin-top: 7px;
+}
+
+/* OEMの文字 */
+.oem-business-left-oem {
+  font-weight: bold;
+  font-size: 48px;
+  margin-left: 20px;
+
+}
+
+/*  */
+.oem-business-left-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 10px 5px 0;
+  margin-bottom: 20px;
+  margin-top: 45px;
+}
+
+/* h3 */
+.oem-business-left-h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.oem-business-left-p {
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+/* button */
+.button-oem {
+  background-color: white;
+  color: black;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+
+}
+
+.button-logo-saisei2 {
+  width: 15px;
+  margin: 0 0 -1px 15px;
+}
+
+/* 右側 */
+.oem-business-right-image {
+  width: 80%;
+}
+
+/* ----------------- */
+/* OEM 二つ目 */
+
+/* colによるpaddingのキャンセル */
+.oem-item {
+  padding: 0;
+}
+
+/* tableの上 */
+.third-side-top {
+  background-color: #FEAC9B;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.third-center-top {
+  background-color: #F8847E;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* tableの下 */
+.third-side-bottom {
+  background-color: white;
+  color: black;
+  padding: 45px 50px;
+}
+
+.third-center-bottom {
+  background-color: #F9EEF2;
+  color: black;
+  padding: 45px 50px;
+}
+
+/* 上テーブルの詳細 */
+.third-top-top {
+  padding: 20px auto;
+}
+
+.third-top-bottom {
+  margin-bottom: 10px;
+}
+
+.top-bottom-bottom {
+  font-size: 46px;
+}
+
+.numbers {
+  font-size: 24px;
+}
+
+.asutarisuk {
+  font-size: 15px;
+  margin: 0 0 30px 10px;
+}
+
+
+
+
+
+/* table下の注意 */
+.oem-business-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.oem-business-caution {
+  font-size: 13px;
+}
